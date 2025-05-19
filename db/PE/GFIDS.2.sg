@@ -1,7 +1,7 @@
 // Detect It Easy: detection rule file
 // Author: BJNFNE <bjnfne@web.de>
 
-init("libary", "GFIDS");
+init("library", "GFIDS");
 
 function detect() {
     if (PE.isSectionNamePresent(".gfids")) {
